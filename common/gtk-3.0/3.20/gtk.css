@@ -2675,12 +2675,19 @@ paned.vertical > separator {
 infobar {
   border-style: none; }
   infobar.info, infobar.question, infobar.warning, infobar.error {
-    background-color: #702020;
     color: #121212;
     caret-color: currentColor; }
     infobar.info selection, infobar.question selection, infobar.warning selection, infobar.error selection {
       color: #702020;
       background-color: #121212; }
+  infobar.info {
+    background-color: #6a9fb5; }
+  infobar.question {
+    background-color: #90a959; }
+  infobar.warning {
+    background-color: #f4bf75; }
+  infobar.error {
+    background-color: #ac4142; }
 
 .selection-mode.primary-toolbar button:hover, headerbar.selection-mode button:hover, row:selected button, infobar.info button, infobar.question button, infobar.warning button, infobar.error button, .nautilus-window .floating-bar button {
   color: #121212;

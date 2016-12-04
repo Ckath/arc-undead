@@ -1,3 +1,10 @@
+### Dependencies for Hacking:
+ * `nvm` for namaging node
+ * `npm` for installing gulp
+ * `gulp` for rendering .scss files
+ * `inkscape` for editing and rendering .svg files
+ * `optipng` for lossless .png compression
+
 This theme uses node-sass/libsass to process the various .scss files. Never edit any of the .css files manually.
 
 #### Editing the CSS based themes in the `common` directory (cinnamon, gnome-shell, gtk-3.0)

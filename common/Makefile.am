@@ -12,16 +12,12 @@ if ENABLE_GTK2
 
 	cd $(srcdir)/gtk-2.0 && cp -R \
 		menubar-toolbar \
-		*.rc \
+		*rc \
 		$(ithemedir)/gtk-2.0
 
 	cd $(srcdir)/gtk-2.0 && cp -R \
-		assets-dark \
-		$(ithemedir)/gtk-2.0/assets
-
-	cd $(srcdir)/gtk-2.0 && cp -R \
-		gtkrc-dark \
-	$(ithemedir)/gtk-2.0/gtkrc
+		assets \
+		$(ithemedir)/gtk-2.0
 endif # ENABLE_GTK2
 
 if ENABLE_GTK3

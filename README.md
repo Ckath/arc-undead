@@ -7,9 +7,11 @@ Like the original Arc Themes Arc-Undead is a flat theme for GTK 3 and GTK2. Neit
 
 ### GTK3
 ![A screenshot of the Arc-Undead theme](http://i.imgur.com/fKas1Fa.png)
+![A screenshot of the Arc-Undead theme](http://i.imgur.com/XkU5P2N.png)
 
 ### GTK2
-![A screenshot of the Arc-Undead theme](http://i.imgur.com/ZUQ72zX.png)
+![A screenshot of the Arc-Undead theme](http://i.imgur.com/IOCd4B0.png)
+![A screenshot of the Arc-Undead theme](http://i.imgur.com/uELgaQL.png)
 
 ## Installation
 

@@ -1,5 +1,4 @@
 #! /bin/bash
-rm -rf ./assets/*
 
 INKSCAPE="/usr/bin/inkscape"
 OPTIPNG="/usr/bin/optipng"
@@ -7,6 +6,8 @@ OPTIPNG="/usr/bin/optipng"
 SRC_FILE="assets.svg"
 ASSETS_DIR="assets"
 INDEX="assets.txt"
+
+rm ./$ASSETS_DIR/*
 
 for i in `cat $INDEX`
 do 

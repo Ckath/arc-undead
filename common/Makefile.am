@@ -9,14 +9,10 @@ install-data-local:
 
 if ENABLE_GTK2
 	$(MKDIR_P) $(ithemedir)/gtk-2.0
-
 	cd $(srcdir)/gtk-2.0 && cp -R \
 		menubar-toolbar \
+		assets\
 		*rc \
-		$(ithemedir)/gtk-2.0
-
-	cd $(srcdir)/gtk-2.0 && cp -R \
-		assets \
 		$(ithemedir)/gtk-2.0
 endif # ENABLE_GTK2
 
@@ -27,11 +23,8 @@ if ENABLE_GTK3
 
 	cd $(srcdir)/gtk-3.0/$(GNOME_VERSION) && cp -R \
 		assets \
+		gtk.css \
 		$(ithemedir)/gtk-3.0
-
-	cd $(srcdir)/gtk-3.0/$(GNOME_VERSION) && cp -R \
-		gtk-solid-dark.css \
-		$(ithemedir)/gtk-3.0/gtk.css
 endif # ENABLE_GTK3
 
 uninstall-local:

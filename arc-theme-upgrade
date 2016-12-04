@@ -3,10 +3,10 @@
 # Script to upgrade/install the arc-theme
 
 #URL
-theme_name=arc-theme
+theme_name=arc-undead
 
 # Theme name
-download_url=https://github.com/horst3180/$theme_name/archive/master.tar.gz
+download_url=https://gitlab.com/chrisduerr/$theme_name/archive/master.tar.gz
 
 # for test purporses only (the repo needs to have this script)
 # download_url=https://github.com/leoheck/$theme_name/archive/master.tar.gz
@@ -15,17 +15,9 @@ download_url=https://github.com/horst3180/$theme_name/archive/master.tar.gz
 tempdir=/tmp/$theme_name
 
 # Directories
-lightdir=/usr/share/themes/Arc
-darkerdir=/usr/share/themes/Arc-Darker
-darkdir=/usr/share/themes/Arc-Undead
-
-userlightdir=$HOME/.themes/Arc
-userdarkerdir=$HOME/.themes/Arc-Darker
-userdarkdir=$HOME/.themes/Arc-Undead
-
-userlightdir2=$HOME/local/share/themes/Arc
-userdarkerdir2=$HOME/local/share/themes/Arc-Darker
-userdarkdir2=$HOME/local/share/themes/Arc-Undead
+dir=/usr/share/themes/Arc-Undead
+userdir=$HOME/.themes/Arc-Undead
+userdir2=$HOME/local/share/themes/Arc-Undead
 
 #Functions
 show_error() {
@@ -85,7 +77,7 @@ install_theme() {
   rm -rf $tempdir && mkdir $tempdir && cd $tempdir
 
   # Get the sources && Remove current installation only if download and unpack are successful
-  wget $download_url && tar xf master.tar.gz && rm -rf $lightdir $darkerdir $darkdir && cd "$theme_name"-master 
+  wget $download_url && tar xf master.tar.gz && rm -rf $dir && cd "$theme_name"-master 
 
   # Build and install
   ./autogen.sh --prefix=/usr
@@ -133,12 +125,12 @@ check_command automake wget pkg-config autoconf make tar
 check_root
 
 #Check if theme is installed
-check_directories $lightdir $darkerdir $darkdir
+check_directories $dir
 
 echo
 read -r -p "Do you want to continue installation? [y/N] " response
 case $response in
-  [yY][eE][sS]|[yY]) 
+  [yY][eE][sS]|[yY])
     install_theme
     ;;
   *)

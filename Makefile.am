@@ -8,4 +8,4 @@ EXTRA_DIST = \
 	package.json \
 	.nvmrc
 
-SUBDIRS = common extra
+SUBDIRS = common

@@ -1,48 +1,28 @@
-# Arc Theme
+# Arc-Undead Theme
 
-Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+Arc-Undead is a modification of the original Arc-Dark theme (https://github.com/horst3180/arc-theme). It is a black/red theme focused on being easy to machine-edit using as little different colors as possible while still looking great.<br>
+Like the original Arc Themes Arc-Undead is a flat theme for GTK 3 and GTK2. Neither transparency, gnome-shell, unity, budgie, pantheon, xfce, mate or any other DEs are supported besides standard GTK theming.
 
-## Arc is available in three variants 
+## Screenshots
 
-##### Arc
+### GTK3
+![A screenshot of the Arc-Undead theme](http://i.imgur.com/fKas1Fa.png)
 
-![A screenshot of the Arc theme](http://i.imgur.com/Ph5ObOa.png)
-
-##### Arc-Darker
-
-![A screenshot of the Arc-Darker theme](http://i.imgur.com/NC6dqyl.png)
-
-##### Arc-Dark
-
-![A screenshot of the Arc-Dark theme](http://i.imgur.com/5AGlCnA.png)
+### GTK2
+![A screenshot of the Arc-Undead theme](http://i.imgur.com/ZUQ72zX.png)
 
 ## Installation
 
 ### Packages
 
-|Distro|Package Name/Link|
-|:----:|:----:|
-| Arch Linux | `arc-gtk-theme`, [`arc-gtk-theme-git`](https://aur.archlinux.org/packages/gtk-theme-arc-git) (AUR) |
-| Debian 8 | [OBS Repo][obs-repo] |
-| Debian Testing/Unstable | `arc-theme` |
-| Fedora | [OBS Repo][obs-repo] |
-| Gentoo/Funtoo | `x11-themes/arc-theme` from the [Scriptkitties Overlay][sk-overlay] |
-| Open SUSE | [OBS Repo][obs-repo] |
-| Solus | `arc-gtk-theme` |
-| Ubuntu 15.04 - 16.04 | [OBS Repo][obs-repo] |
-| Ubuntu 16.10 | `arc-theme` |
+Currently there is no package of Arc-Undead in any official or inofficial repository. If you would like to maintain a repository for your distribution please contact me first.
 
-**elementary OS Note:** elementary OS Freya users can install the package for Ubuntu 15.04, Loki users can install the package for Ubuntu 16.04.
-
-**AUR Note:** If you're having trouble with the AUR packages please email the package maintainer at zach@zach-adams.com before creating an issue.
-
-A non-transparent version of the theme is available here: [Arc Solid OBS repo](http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme-solid)
-
---
+A version build with x86_64 Archlinux is available in my dotfiles:<br>
+https://gitlab.com/chrisduerr/dotfiles/tree/master/templates/arc-undead
 
 ### Manual Installation
 
-To build the theme the follwing packages are required 
+To build the theme the follwing packages are required:
 * `autoconf`
 * `automake`
 * `pkg-config` or `pkgconfig` if you use Fedora
@@ -52,8 +32,8 @@ To build the theme the follwing packages are required
 **Note:** If your distribution doesn't ship separate development packages you just need GTK 3 instead of the `-dev` packages.
 
 For the theme to function properly, install the following
-* Gnome Shell, GTK 3.14 - 3.22
-* The `gnome-themes-standard` package
+* GTK2, GTK 3.20 - 3.22
+* The `gnome-themes-standard` package (?)
 * The murrine engine. This has different names depending on your distro.
   * `gtk-engine-murrine` (Arch Linux)
   * `gtk2-engines-murrine` (Debian, Ubuntu, elementary OS)
@@ -67,32 +47,19 @@ Install the theme with the following commands
 
 Clone the git repository with
 
-    git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
+    git clone https://gitlab.com/chrisduerr/arc-undead --depth 1 && cd arc-undead
 
 #### 2. Build and install the theme
 
-    ./autogen.sh --prefix=/usr
+    ./autogen.sh --prefix=/usr --disable-light --disable-darker --disable-cinnamon --disable-gnome-shell --disable-metacity --disable-unity --disable-xfwm --disable-transparency
     sudo make install
 
-Other options to pass to autogen.sh are
+Other options to pass to autogen.sh:
 
-    --disable-transparency     disable transparency in the GTK3 theme
-    --disable-light            disable Arc Light support
-    --disable-darker           disable Arc Darker support
-    --disable-dark             disable Arc Dark support
-    --disable-cinnamon         disable Cinnamon support
-    --disable-gnome-shell      disable GNOME Shell support
-    --disable-gtk2             disable GTK2 support
-    --disable-gtk3             disable GTK3 support
-    --disable-metacity         disable Metacity support
-    --disable-unity            disable Unity support
-    --disable-xfwm             disable XFWM support
+    --disable-gtk2 Disable GTK2 Support
+    --disable-gtk3 Disable GTK3 Support
 
-    --with-gnome=<version>     build the theme for a specific Gnome version (3.14, 3.16, 3.18, 3.20)
-                               Note: Normally the correct version is detected automatically and this
-                               option should not be needed.
-
-After the installation is complete you can activate the theme with `gnome-tweak-tool` or a similar program by selecting `Arc`, `Arc-Darker` or `Arc-Dark` as Window/GTK+ theme and `Arc` or `Arc-Dark` as Gnome Shell/Cinnamon theme.
+After the installation is complete you can activate the theme with `lxappearance` or a similar program by selecting `Arc-Dark` as Window/GTK+ theme.
 
 ## Uninstall
 
@@ -106,43 +73,15 @@ from the cloned git repository, or
 
 ## Extras
 
-### Arc Firefox theme
-A theme for Firefox is available at https://github.com/horst3180/arc-firefox-theme
-
-### Arc icon theme
+### Original Arc Icon Theme
 The Arc icon theme is available at https://github.com/horst3180/arc-icon-theme
-
-### Chrome/Chromium theme
-To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or arc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
-
-### Plank theme
-To install the Plank theme, copy the `extra/Arc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
-Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Arc-Plank` as the theme.
-
-### Arc-Dark for Ubuntu Software Center
-The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/arc-dark-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
 
 ## Troubleshooting
 
-If you have Ubuntu with a newer GTK/Gnome version than the one included by default (i.e Ubuntu 14.04 with GTK 3.14 or Ubuntu 15.04 with GTK 3.16, etc.) the prebuilt packages won't work properly and you have to install the theme manually as described above.
-This is also true for other distros with a different GTK/Gnome version than the one included by default
-
---
-
-If you get artifacts like black or invisible backgrounds under Unity, disable overlay scrollbars with
-
-    gsettings set com.canonical.desktop.interface scrollbar-mode normal
-
+If you have issues installing the pre-build theme try the [Manual Installation](#manual-installation)
 
 ## Bugs
-If you find a bug, please report it at https://github.com/horst3180/arc-theme/issues
+If you find a bug, please report it at https://gitlab.com/chrisduerr/arc-undead/issues
 
 ## License
-Arc is available under the terms of the GPL-3.0. See `COPYING` for details.
-
-## Full Preview
-![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
-<sub>Screenshot Details: Icons: [Arc](https://github.com/horst3180/arc-icon-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
-
-[obs-repo]: http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme
-[sk-overlay]: https://c.darenet.org/scriptkitties/overlay
+Arc and Arc-Undead are available under the terms of the GPL-3.0. See `COPYING` for details.

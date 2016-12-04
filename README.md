@@ -51,7 +51,7 @@ Clone the git repository with
 
 #### 2. Build and install the theme
 
-    ./autogen.sh --prefix=/usr --disable-light --disable-darker --disable-cinnamon --disable-gnome-shell --disable-metacity --disable-unity --disable-xfwm --disable-transparency
+    ./autogen.sh --prefix=/usr
     sudo make install
 
 Other options to pass to autogen.sh:

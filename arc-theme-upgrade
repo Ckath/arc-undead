@@ -17,15 +17,15 @@ tempdir=/tmp/$theme_name
 # Directories
 lightdir=/usr/share/themes/Arc
 darkerdir=/usr/share/themes/Arc-Darker
-darkdir=/usr/share/themes/Arc-Dark
+darkdir=/usr/share/themes/Arc-Undead
 
 userlightdir=$HOME/.themes/Arc
 userdarkerdir=$HOME/.themes/Arc-Darker
-userdarkdir=$HOME/.themes/Arc-Dark
+userdarkdir=$HOME/.themes/Arc-Undead
 
 userlightdir2=$HOME/local/share/themes/Arc
 userdarkerdir2=$HOME/local/share/themes/Arc-Darker
-userdarkdir2=$HOME/local/share/themes/Arc-Dark
+userdarkdir2=$HOME/local/share/themes/Arc-Undead
 
 #Functions
 show_error() {

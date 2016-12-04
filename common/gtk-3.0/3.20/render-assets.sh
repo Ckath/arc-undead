@@ -1,4 +1,5 @@
 #! /bin/bash
+rm -rf ./assets/*
 
 INKSCAPE="/usr/bin/inkscape"
 OPTIPNG="/usr/bin/optipng"

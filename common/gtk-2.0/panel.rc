@@ -3,20 +3,20 @@ style "theme-panel" {
   xthickness = 2
   ythickness = 0
 
-  bg[NORMAL] = "#2B2E37"
+  bg[NORMAL] = "#121212"
   bg[ACTIVE] = @selected_bg_color
-  bg[PRELIGHT] = "#3f4453"
+  bg[PRELIGHT] = "#121212"
   bg[SELECTED] = @selected_bg_color
 
-  fg[NORMAL] = "#BAC3CF"
+  fg[NORMAL] = "#9e9e9e"
   fg[PRELIGHT] = @selected_fg_color
   fg[ACTIVE] = @selected_fg_color
   fg[SELECTED] = @selected_fg_color
 
-  text[NORMAL] = "#BAC3CF"
-  text[PRELIGHT] = "#BAC3CF"
-  text[ACTIVE] = "#BAC3CF"
-  text[SELECTED] = "#BAC3CF"
+  text[NORMAL] = "#9e9e9e"
+  text[PRELIGHT] = "#9e9e9e"
+  text[ACTIVE] = "#9e9e9e"
+  text[SELECTED] = "#9e9e9e"
 
   engine "murrine" {
     reliefstyle = 0
@@ -31,14 +31,14 @@ style "theme-panel" {
 }
 
 style "theme-panel-progressbar" {
-  bg[ACTIVE] = "#1D1F26"
+  bg[ACTIVE] = "#121212"
 }
 
 style "panelbar" {
 
-  fg[NORMAL] = "#edf5fb"
-  fg[ACTIVE] = "#edf5fb"
-  fg[PRELIGHT] = "#edf5fb"
+  fg[NORMAL] = "#9e9e9e"
+  fg[ACTIVE] = "#9e9e9e"
+  fg[PRELIGHT] = "#9e9e9e"
   fg[SELECTED] = @selected_fg_color
 
   bg[SELECTED] = @selected_bg_color
@@ -58,13 +58,13 @@ style "panelbuttons" {
 
 style "theme-panel-text" {
 
-  fg[NORMAL] = "#edf5fb"
+  fg[NORMAL] = "#9e9e9e"
   fg[PRELIGHT] = @selected_fg_color
-  fg[ACTIVE] = "#edf5fb"
+  fg[ACTIVE] = "#9e9e9e"
 
-  text[NORMAL] = "#edf5fb"
+  text[NORMAL] = "#9e9e9e"
   text[PRELIGHT] = @selected_fg_color
-  text[ACTIVE] = "#edf5fb"
+  text[ACTIVE] = "#9e9e9e"
 
   engine "murrine" {
     textstyle = 0
@@ -128,7 +128,7 @@ class "PanelToplevel*"                                style "theme-panel"
 widget_class "*PanelToplevel*"                        style "theme-panel"
 widget_class "*notif*"                                style "theme-panel"
 widget_class "*Notif*"                                style "theme-panel"
-widget_class "*Tray*"                                 style "theme-panel" 
+widget_class "*Tray*"                                 style "theme-panel"
 widget_class "*tray*"                                 style "theme-panel"
 widget_class "*computertemp*"                         style "theme-panel"
 widget_class "*Applet*Tomboy*"                        style "theme-panel"

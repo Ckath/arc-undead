@@ -1,4 +1,6 @@
 #! /bin/bash
+rm ./assets-dark/*
+rm ./assets/*
 
 INKSCAPE="/usr/bin/inkscape"
 OPTIPNG="/usr/bin/optipng"

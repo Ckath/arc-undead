@@ -58,8 +58,11 @@ Clone the git repository with
 
 Other options to pass to autogen.sh:
 
-    --disable-gtk2 Disable GTK2 Support
-    --disable-gtk3 Disable GTK3 Support
+    --disable-gtk2          Disable GTK2 Support
+    --disable-gtk3          Disable GTK3 Support
+    --with-gnome=<version>  Build the theme for a specific Gnome version (3.20, 3.22)
+                            Note: Normally the correct version is detected automatically
+                                  and this option should not be needed.
 
 After the installation is complete you can activate the theme with `lxappearance` or a similar program by selecting `Arc-Dark` as Window/GTK+ theme.
 

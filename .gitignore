@@ -10,4 +10,3 @@ configure
 install-sh
 missing
 .idea/
-*.pkg.tar.xz

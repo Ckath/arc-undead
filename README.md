@@ -8,3 +8,8 @@ This theme aims to be easy to configure. All you need to do is edit the `gtk.css
 Then you'll have to generate the assets using `render-assets.sh`, this will require `inkscape` and optionally `optipng` for smaller images.
 After that you'll have to decide on a name for your theme. For setting the name all you need to do is edit the `index.theme` file.
 That's it! Now you can run `install.sh` and your theme is good to go.
+
+## Screenshots:
+
+![Screenshot](http://i.imgur.com/C08K5m9.png)
+![Screenshot](http://i.imgur.com/b2aD9FU.png)

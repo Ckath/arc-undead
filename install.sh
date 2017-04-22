@@ -8,6 +8,9 @@ if [[ "$NAME" == "" ]]; then
     exit
 fi
 
+# Remove old directories
+rm -rf "$TARGET"
+
 # Create required directories
 mkdir -p "$TARGET/gtk-3.0"
 

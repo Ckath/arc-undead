@@ -15,7 +15,7 @@
    height="276"
    id="svg9892"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="assets.svg">
   <defs
      id="defs9894">
@@ -465,16 +465,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.5227187"
-     inkscape:cx="241.44835"
-     inkscape:cy="166.33867"
+     inkscape:cx="213.78401"
+     inkscape:cy="149.87504"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showborder="false"
-     inkscape:window-width="1878"
-     inkscape:window-height="1008"
-     inkscape:window-x="1700"
-     inkscape:window-y="410"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1680"
+     inkscape:window-y="360"
      inkscape:window-maximized="0"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -501,7 +501,8 @@
     <sodipodi:guide
        orientation="1,0"
        position="379.875,-287.75"
-       id="guide8384" />
+       id="guide8384"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata9897">
@@ -586,14 +587,14 @@
             <g
                id="g5400-6">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -686,14 +687,14 @@
             <g
                id="g5400-6-9">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-0"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -1139,14 +1140,14 @@
           <g
              id="g5400-2">
             <rect
-               ry="2"
+               ry="0"
                style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#262626;fill-opacity:1;stroke:#616161;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3"
                width="13"
                height="12.999997"
                x="18.5"
                y="31.862183"
-               rx="2" />
+               rx="0" />
           </g>
         </g>
       </g>
@@ -1232,14 +1233,14 @@
             <g
                id="g5400-6-4">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-3"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -1332,14 +1333,14 @@
             <g
                id="g5400-6-9-9">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-0-7"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -1555,14 +1556,14 @@
           <g
              id="g5400-2-4">
             <rect
-               ry="2"
+               ry="0"
                style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#262626;fill-opacity:1;stroke:#616161;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3-7"
                width="13"
                height="13.000001"
                x="18.5"
                y="31.862192"
-               rx="2" />
+               rx="0" />
           </g>
         </g>
       </g>
@@ -1878,14 +1879,14 @@
             <g
                id="g5400-6-91">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-35"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient6585);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -1978,14 +1979,14 @@
             <g
                id="g5400-6-9-99">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-0-8"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient6587);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -2201,14 +2202,14 @@
           <g
              id="g5400-2-0">
             <rect
-               ry="2"
+               ry="0"
                style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#ffffff;fill-opacity:0.11764706;stroke:url(#linearGradient6657);stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3-5"
                width="13"
                height="12.999997"
                x="18.5"
                y="31.862183"
-               rx="2" />
+               rx="0" />
           </g>
         </g>
       </g>
@@ -2294,14 +2295,14 @@
             <g
                id="g5400-6-4-1">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-3-3"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient6583);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -2394,14 +2395,14 @@
             <g
                id="g5400-6-9-9-0">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-0-7-3"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient6581);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -2617,14 +2618,14 @@
           <g
              id="g5400-2-4-8">
             <rect
-               ry="2"
+               ry="0"
                style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#ffffff;fill-opacity:0.11764706;stroke:url(#linearGradient6655);stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3-7-5"
                width="13"
                height="13.000001"
                x="18.5"
                y="31.862192"
-               rx="2" />
+               rx="0" />
           </g>
         </g>
       </g>
@@ -2730,14 +2731,14 @@
          style="display:inline;fill:none;fill-opacity:0.55102036;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          rx="1.9999999" />
       <rect
-         ry="2"
+         ry="0"
          y="183.36218"
          x="466"
          height="32"
          width="32"
          id="rect13851"
          style="fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         rx="2" />
+         rx="0" />
       <g
          transform="translate(-2.2045153,1.9730481)"
          id="g14051">
@@ -2754,14 +2755,14 @@
        transform="translate(-425,-369)"
        inkscape:label="#g14055">
       <rect
-         ry="2"
+         ry="0"
          y="183.86218"
          x="466.50003"
          height="31"
          width="30.999969"
          id="rect13851-8"
          style="fill:#262626;fill-opacity:1;stroke:#616161;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         rx="2" />
+         rx="0" />
       <g
          transform="translate(-2.2045153,1.9730481)"
          id="g14051-0">
@@ -3753,14 +3754,14 @@
             <g
                id="g5400-6-68">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-4"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -3853,14 +3854,14 @@
             <g
                id="g5400-6-9-3">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-0-0"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -4255,7 +4256,7 @@
                height="20"
                x="1"
                y="1031.3622"
-               ry="11"
+               ry="0"
                rx="11" />
             <circle
                style="fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4306,14 +4307,14 @@
           <g
              id="g5400-2-47">
             <rect
-               ry="2"
+               ry="0"
                style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#262626;fill-opacity:1;stroke:#616161;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3-70"
                width="13"
                height="12.999997"
                x="18.5"
                y="31.862183"
-               rx="2" />
+               rx="0" />
           </g>
         </g>
       </g>
@@ -4399,14 +4400,14 @@
             <g
                id="g5400-6-4-3">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-3-9"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -4499,14 +4500,14 @@
             <g
                id="g5400-6-9-9-6">
               <rect
-                 rx="1.9999943"
+                 rx="0"
                  y="31.362196"
                  x="18.000006"
                  height="13.99999"
                  width="13.999989"
                  id="rect5147-9-1-5-7-6-7-0-7-33"
                  style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-                 ry="1.9999917" />
+                 ry="0" />
             </g>
           </g>
         </g>
@@ -4726,14 +4727,14 @@
              id="g5400-2-4-7"
              style="">
             <rect
-               ry="2"
+               ry="0"
                style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#262626;fill-opacity:1;stroke:#616161;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3-7-2"
                width="13"
                height="13.000001"
                x="18.5"
                y="31.862192"
-               rx="2" />
+               rx="0" />
           </g>
         </g>
       </g>
@@ -4789,14 +4790,14 @@
        transform="translate(-227.99998,-369)"
        inkscape:label="#g14055">
       <rect
-         ry="2"
+         ry="0"
          y="183.36218"
          x="466"
          height="32"
          width="32"
          id="rect13851-5"
          style="fill:url(#selected_bg_color);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         rx="2" />
+         rx="0" />
       <g
          transform="translate(-2.2045153,1.9730481)"
          id="g14051-7">
@@ -4822,14 +4823,14 @@
        transform="translate(-182.99998,-369)"
        inkscape:label="#g14055">
       <rect
-         ry="2"
+         ry="0"
          y="183.86218"
          x="466.50003"
          height="31"
          width="30.999969"
          id="rect13851-8-3"
          style="fill:#262626;fill-opacity:1;stroke:#616161;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         rx="2" />
+         rx="0" />
       <g
          transform="translate(-2.2045153,1.9730481)"
          id="g14051-0-8">
@@ -4956,7 +4957,7 @@
                y="1031.3622"
                ry="11"
                rx="11.000001" />
-            <circle
+            <ellipse
                style="opacity:1;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                id="path3759-7-8-7-8"
                cx="41"

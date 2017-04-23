@@ -1,10 +1,14 @@
 # Arc-Undead
-### A simplified GTK3 Arc Theme
+#### A simplified GTK3 Arc Theme
 
 Disclaimer: Credit for most of this goes to the original Arc Theme.
 You can find it here: https://github.com/horst3180/arc-theme
 
-#### Hacking
+### Installation
+
+All you need to do to install this theme in its base configuration is running `install.sh` as root (or any other user that has access to `/usr/share/themes`) and the theme is ready to use.
+
+### Hacking
 This theme aims to be easy to configure and change. If you want to edit the gtk3 theme, you only have to edit the `gtk.css`.
 For the gtk2 theme you'll have to edit the `gtkrc` file. Both gtk2 and gtk3 have an `assets.svg` file for the images.
 
@@ -22,15 +26,11 @@ If you want to change the name of the theme, all you have to do is edit the `ind
 
 After changing anything, you'll have to reinstall the theme using the `install.sh` script.
 
-#### Installation
-
-All you need to do to install this theme in its base configuration is running `install.sh` as root (or any other user that has access to `/usr/share/themes`) and the theme is ready to use.
-
 ## Screenshots
 
-# GTK3
+### GTK3
 ![Screenshot](https://i.imgur.com/Q31AUIL.png)
 ![Screenshot](https://i.imgur.com/qND1ebX.png)
 
-# GTK2
+### GTK2
 ![Screenshot](https://i.imgur.com/oFcLy2y.png)

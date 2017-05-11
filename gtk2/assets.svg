@@ -833,9 +833,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.933425"
-     inkscape:cx="210.25165"
-     inkscape:cy="211.2491"
+     inkscape:zoom="7.7337"
+     inkscape:cx="278.46012"
+     inkscape:cy="380.3787"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1216,8 +1216,8 @@
                transform="translate(-3,-4.9999826)"
                style="fill:#3b3c3e;fill-opacity:1">
               <rect
-                 ry="0.66666085"
-                 rx="0.66666085"
+                 ry="0"
+                 rx="0"
                  y="1033.7155"
                  x="8.3534861"
                  height="1.9999826"
@@ -1631,8 +1631,8 @@
                transform="translate(-3,-4.9999826)"
                style="fill:#3b3c3e;fill-opacity:1">
               <rect
-                 ry="0.66666085"
-                 rx="0.66666085"
+                 ry="0"
+                 rx="0"
                  y="1033.3622"
                  x="8"
                  height="1.9999826"
@@ -5645,8 +5645,8 @@
                transform="translate(-3,-4.9999826)"
                style="fill:#3b3c3e;fill-opacity:1">
               <rect
-                 ry="0.66666085"
-                 rx="0.66666085"
+                 ry="0"
+                 rx="0"
                  y="1033.7155"
                  x="8.3534861"
                  height="1.9999826"

@@ -1,0 +1,6 @@
+export NAME="Arc-Undead-Darker"
+export FG_COLOR="#eeeeee"
+export BG_COLOR="#0C090A"
+export SEC_FG_COLOR="#eeeeee"
+export SEC_BG_COLOR="#0C090A"
+export HIGHLIGHT_COLOR="#eeeeee"

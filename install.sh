@@ -34,6 +34,8 @@ sed -i "s/_SEC_BG_COLOR/$SEC_BG_COLOR/g" ./gtk2/assets.svg ./gtk3/assets.svg
 sed -i "s/_FG_COLOR/$FG_COLOR/g" ./gtk2/assets.svg ./gtk3/assets.svg
 sed -i "s/_BG_COLOR/$BG_COLOR/g" ./gtk2/assets.svg ./gtk3/assets.svg
 sed -i "s/_HIGHLIGHT_COLOR/$HIGHLIGHT_COLOR/g" ./gtk2/assets.svg ./gtk3/assets.svg
+mkdir gtk2/assets 2> /dev/null
+mkdir gtk3/assets 2> /dev/null
 bash -c "cd gtk2 ; ./render-assets.sh"
 bash -c "cd gtk3 ; ./render-assets.sh"
 

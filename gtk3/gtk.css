@@ -1,7 +1,7 @@
 * {
   background-clip: padding-box;
   -GtkToolButton-icon-spacing: 4;
-  -GtkTextView-error-underline-color: #ac4142;
+  -GtkTextView-error-underline-color: _HIGHLIGHT_COLOR;
   -GtkScrolledWindow-scrollbar-spacing: 0;
   -GtkToolItemGroup-expander-size: 11;
   -GtkWidget-text-handle-width: 20;
@@ -171,30 +171,30 @@ entry {
       color: #f4bf75; }
   entry.error {
     color: _FG_COLOR;
-    border-color: #ac4142;
+    border-color: _HIGHLIGHT_COLOR;
     background-color: #723232; }
     entry.error image {
       color: _FG_COLOR; }
     entry.error:focus {
       color: _FG_COLOR;
-      background-color: #ac4142;
+      background-color: _HIGHLIGHT_COLOR;
       box-shadow: none; }
     entry.error selection, entry.error selection:focus {
       background-color: _FG_COLOR;
-      color: #ac4142; }
+      color: _HIGHLIGHT_COLOR; }
   entry.search-missing {
     color: _FG_COLOR;
-    border-color: #ac4142;
+    border-color: _HIGHLIGHT_COLOR;
     background-color: #723232; }
     entry.search-missing image {
       color: _FG_COLOR; }
     entry.search-missing:focus {
       color: _FG_COLOR;
-      background-color: #ac4142;
+      background-color: _HIGHLIGHT_COLOR;
       box-shadow: none; }
     entry.search-missing selection, entry.search-missing selection:focus {
       background-color: _FG_COLOR;
-      color: #ac4142; }
+      color: _HIGHLIGHT_COLOR; }
   entry:drop(active):focus, entry:drop(active) {
     border-color: #f4bf75;
     box-shadow: none; }
@@ -407,13 +407,13 @@ button {
   button.destructive-action {
     background-clip: border-box;
     color: _FG_COLOR;
-    background-color: #ac4142;
-    border-color: #ac4142; }
+    background-color: _HIGHLIGHT_COLOR;
+    border-color: _HIGHLIGHT_COLOR; }
     button.destructive-action.flat, button.destructive-action.sidebar-button {
       border-color: transparent;
       background-color: transparent;
       background-image: none;
-      color: #ac4142; }
+      color: _HIGHLIGHT_COLOR; }
     button.destructive-action:hover {
       background-clip: border-box;
       color: _FG_COLOR;
@@ -496,7 +496,7 @@ button {
 
 .linked:not(.vertical):not(.path-bar) > entry.error + entry,
 .linked:not(.vertical):not(.path-bar) > entry + entry.error {
-  border-left-color: #ac4142; }
+  border-left-color: _HIGHLIGHT_COLOR; }
 
 .linked:not(.vertical):not(.path-bar) > entry.warning + entry,
 .linked:not(.vertical):not(.path-bar) > entry + entry.warning {
@@ -535,12 +535,12 @@ button {
 
 .linked:not(.vertical):not(.path-bar) > entry + entry.error:focus:not(:last-child),
 .linked:not(.vertical):not(.path-bar) > entry + entry.error:focus:last-child {
-  border-left-color: #ac4142; }
+  border-left-color: _HIGHLIGHT_COLOR; }
 
 .linked:not(.vertical):not(.path-bar) > entry.error:focus:not(:only-child) + entry,
 .linked:not(.vertical):not(.path-bar) > entry.error:focus:not(:only-child) + button,
 .linked:not(.vertical):not(.path-bar) > entry.error:focus:not(:only-child) + combobox > box > button.combo {
-  border-left-color: #ac4142; }
+  border-left-color: _HIGHLIGHT_COLOR; }
 
 .linked:not(.vertical):not(.path-bar) > button:active + entry,
 .linked:not(.vertical):not(.path-bar) > button:checked + entry {
@@ -589,7 +589,7 @@ button {
 
 .linked.vertical > entry.error + entry,
 .linked.vertical > entry + entry.error {
-  border-top-color: #ac4142; }
+  border-top-color: _HIGHLIGHT_COLOR; }
 
 .linked.vertical > entry.warning + entry,
 .linked.vertical > entry + entry.warning {
@@ -628,12 +628,12 @@ button {
 
 .linked.vertical > entry + entry.error:focus:not(:last-child),
 .linked.vertical > entry + entry.error:focus:last-child {
-  border-top-color: #ac4142; }
+  border-top-color: _HIGHLIGHT_COLOR; }
 
 .linked.vertical > entry.error:focus:not(:only-child) + entry,
 .linked.vertical > entry.error:focus:not(:only-child) + button,
 .linked.vertical > entry.error:focus:not(:only-child) + combobox > box > button.combo {
-  border-top-color: #ac4142; }
+  border-top-color: _HIGHLIGHT_COLOR; }
 
 .linked.vertical > button:active + entry,
 .linked.vertical > button:checked + entry {
@@ -746,7 +746,7 @@ modelbutton.flat arrow.right {
   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
 
 *:link, button:link, button:visited {
-  color: #ac4142; }
+  color: _HIGHLIGHT_COLOR; }
   *:link:visited, button:visited {
     color: #742c2d; }
     *:selected *:link:visited, *:selected button:visited:link, *:selected button:visited {
@@ -756,7 +756,7 @@ modelbutton.flat arrow.right {
     *:selected *:link:hover, *:selected button:hover:link, *:selected button:hover:visited {
       color: #241c1c; }
   *:link:active, button:active:link, button:active:visited {
-    color: #ac4142; }
+    color: _HIGHLIGHT_COLOR; }
     *:selected *:link:active, *:selected button:active:link, *:selected button:active:visited {
       color: #2c1c1c; }
   infobar.info *:link, infobar.info button:link, infobar.info button:visited, infobar.question *:link, infobar.question button:link, infobar.question button:visited, infobar.warning *:link, infobar.warning button:link, infobar.warning button:visited, infobar.error *:link, infobar.error button:link, infobar.error button:visited, *:link:selected, button:selected:link, button:selected:visited, headerbar.selection-mode .subtitle:link, .selection-mode.titlebar:not(headerbar) .subtitle:link,
@@ -1079,10 +1079,10 @@ window.csd > .titlebar:not(headerbar):backdrop {
     background-color: #723232; }
     .primary-toolbar entry.error:focus, headerbar entry.error:focus {
       color: _FG_COLOR;
-      background-color: #ac4142; }
+      background-color: _HIGHLIGHT_COLOR; }
     .primary-toolbar entry.error selection, headerbar entry.error selection, .primary-toolbar entry.error selection:focus, headerbar entry.error selection:focus {
       background-color: _FG_COLOR;
-      color: #ac4142; }
+      color: _HIGHLIGHT_COLOR; }
 
 .primary-toolbar button, headerbar button {
   color: _FG_COLOR;
@@ -1223,13 +1223,13 @@ window.csd > .titlebar:not(headerbar):backdrop {
 .primary-toolbar button.destructive-action, headerbar button.destructive-action {
   background-clip: border-box;
   color: _FG_COLOR;
-  background-color: #ac4142;
-  border-color: #ac4142; }
+  background-color: _HIGHLIGHT_COLOR;
+  border-color: _HIGHLIGHT_COLOR; }
   .primary-toolbar button.destructive-action.flat, headerbar button.destructive-action.flat, .primary-toolbar button.destructive-action.sidebar-button, headerbar button.destructive-action.sidebar-button {
     border-color: transparent;
     background-color: transparent;
     background-image: none;
-    color: #ac4142; }
+    color: _HIGHLIGHT_COLOR; }
   .primary-toolbar button.destructive-action:hover, headerbar button.destructive-action:hover {
     background-clip: border-box;
     color: _FG_COLOR;
@@ -2685,7 +2685,7 @@ infobar {
   infobar.warning {
     background-color: #f4bf75; }
   infobar.error {
-    background-color: #ac4142; }
+    background-color: _HIGHLIGHT_COLOR; }
 
 .selection-mode.primary-toolbar button:hover, headerbar.selection-mode button:hover, row:selected button, infobar.info button, infobar.question button, infobar.warning button, infobar.error button, .nautilus-window .floating-bar button {
   color: _BG_COLOR;
@@ -3085,7 +3085,7 @@ popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-can
 
 .conflict-row.activatable, .conflict-row.activatable:active {
   color: _FG_COLOR;
-  background-color: #ac4142; }
+  background-color: _HIGHLIGHT_COLOR; }
 
 .conflict-row.activatable:hover {
   background-color: #c25e5f; }
@@ -4021,8 +4021,8 @@ GtkListBox .h4 {
 #shutdown_button.button {
   background-clip: border-box;
   color: green;
-  background-color: #ac4142;
-  border-color: #ac4142; }
+  background-color: _HIGHLIGHT_COLOR;
+  border-color: _HIGHLIGHT_COLOR; }
   #shutdown_button.button:hover {
     background-clip: border-box;
     color: green;
@@ -4282,10 +4282,10 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color borders _SEC_BG_COLOR;
 @define-color unfocused_borders _SEC_BG_COLOR;
 @define-color warning_color #f4bf75;
-@define-color error_color #ac4142;
+@define-color error_color _HIGHLIGHT_COLOR;
 @define-color success_color #90a959;
 @define-color placeholder_text_color #A8A8A8;
-@define-color link_color #ac4142;
+@define-color link_color _HIGHLIGHT_COLOR;
 @define-color content_view_bg _BG_COLOR;
 @define-color wm_title alpha(_FG_COLOR, 0.8);
 @define-color wm_unfocused_title alpha(_FG_COLOR, 0.5);
@@ -4294,7 +4294,7 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color wm_highlight #232323;
 @define-color wm_shadow alpha(black, 0.35);
 @define-color wm_button_close_bg _HIGHLIGHT_COLOR;
-@define-color wm_button_close_hover_bg #ac4142;
+@define-color wm_button_close_hover_bg _HIGHLIGHT_COLOR;
 @define-color wm_button_close_active_bg #622526;
 @define-color wm_icon_close_bg _BG_COLOR;
 @define-color wm_button_hover_bg _BG_COLOR;

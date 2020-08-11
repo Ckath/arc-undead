@@ -172,7 +172,7 @@ entry {
   entry.error {
     color: _FG_COLOR;
     border-color: _HIGHLIGHT_COLOR;
-    background-color: #723232; }
+    background-color: _HIGHLIGHT_COLOR; }
     entry.error image {
       color: _FG_COLOR; }
     entry.error:focus {
@@ -185,7 +185,7 @@ entry {
   entry.search-missing {
     color: _FG_COLOR;
     border-color: _HIGHLIGHT_COLOR;
-    background-color: #723232; }
+    background-color: _HIGHLIGHT_COLOR; }
     entry.search-missing image {
       color: _FG_COLOR; }
     entry.search-missing:focus {
@@ -287,8 +287,8 @@ button {
     button:disabled label, button:disabled {
       color: rgba(158, 158, 158, 0.45); }
     button:disabled:active, button:disabled:checked {
-      border-color: rgba(112, 32, 32, 0.75);
-      background-color: rgba(112, 32, 32, 0.75);
+      border-color: _HIGHLIGHT_COLOR;
+      background-color: _HIGHLIGHT_COLOR;
       opacity: 0.6; }
       button:disabled:active label, button:disabled:active, button:disabled:checked label, button:disabled:checked {
         color: rgba(27, 27, 27, 0.8); }
@@ -485,8 +485,8 @@ button {
     .inline-toolbar toolbutton > button:disabled label, .inline-toolbar toolbutton > button:disabled {
       color: rgba(158, 158, 158, 0.45); }
   .inline-toolbar toolbutton > button:disabled:active, .inline-toolbar toolbutton > button:disabled:checked {
-    border-color: rgba(112, 32, 32, 0.75);
-    background-color: rgba(112, 32, 32, 0.75);
+    border-color: _HIGHLIGHT_COLOR;
+    background-color: _HIGHLIGHT_COLOR;
     opacity: 0.6; }
     .inline-toolbar toolbutton > button:disabled:active label, .inline-toolbar toolbutton > button:disabled:active, .inline-toolbar toolbutton > button:disabled:checked label, .inline-toolbar toolbutton > button:disabled:checked {
       color: rgba(27, 27, 27, 0.8); }
@@ -1076,7 +1076,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   .primary-toolbar entry.error, headerbar entry.error {
     color: _FG_COLOR;
     border-color: rgba(0, 0, 0, 0.4);
-    background-color: #723232; }
+    background-color: _HIGHLIGHT_COLOR; }
     .primary-toolbar entry.error:focus, headerbar entry.error:focus {
       color: _FG_COLOR;
       background-color: _HIGHLIGHT_COLOR; }
@@ -1107,8 +1107,8 @@ window.csd > .titlebar:not(headerbar):backdrop {
       color: rgba(158, 158, 158, 0.55); }
   .primary-toolbar button:disabled:active, headerbar button:disabled:active, .primary-toolbar button:disabled:checked, headerbar button:disabled:checked {
     color: rgba(27, 27, 27, 0.75);
-    border-color: rgba(112, 32, 32, 0.65);
-    background-color: rgba(112, 32, 32, 0.65); }
+    border-color: _HIGHLIGHT_COLOR;
+    background-color: _HIGHLIGHT_COLOR; }
 
 .selection-mode.primary-toolbar button, headerbar.selection-mode button, .selection-mode.primary-toolbar button.flat, headerbar.selection-mode button.flat, .selection-mode.primary-toolbar button.sidebar-button, headerbar.selection-mode button.sidebar-button {
   border-color: transparent;
@@ -2150,7 +2150,7 @@ scale {
   scale highlight {
     background-color: _HIGHLIGHT_COLOR; }
     scale highlight:disabled {
-      background-color: rgba(112, 32, 32, 0.55); }
+      background-color: _HIGHLIGHT_COLOR; }
   scale fill {
     background-color: rgba(112, 32, 32, 0.5); }
     scale fill:disabled {
@@ -2331,7 +2331,7 @@ scrolledwindow viewport.frame {
   border-style: none; }
 
 scrolledwindow overshoot.top {
-  background-image: -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(112, 32, 32, 0.2)), to(rgba(112, 32, 32, 0)));
+  background-image: -gtk-gradient(radial, center top, 0, center top, 0.6, from(_HIGHLIGHT_COLOR, _BG_COLOR));
   background-size: 100% 60%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -2340,7 +2340,7 @@ scrolledwindow overshoot.top {
   box-shadow: none; }
 
 scrolledwindow overshoot.bottom {
-  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(112, 32, 32, 0.2)), to(rgba(112, 32, 32, 0)));
+  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(_HIGHLIGHT_COLOR, _BG_COLOR));
   background-size: 100% 60%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -2349,7 +2349,7 @@ scrolledwindow overshoot.bottom {
   box-shadow: none; }
 
 scrolledwindow overshoot.left {
-  background-image: -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(112, 32, 32, 0.2)), to(rgba(112, 32, 32, 0)));
+  background-image: -gtk-gradient(radial, left center, 0, left center, 0.6, from(_HIGHLIGHT_COLOR, _BG_COLOR));
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: left center;
@@ -2358,7 +2358,7 @@ scrolledwindow overshoot.left {
   box-shadow: none; }
 
 scrolledwindow overshoot.right {
-  background-image: -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(112, 32, 32, 0.2)), to(rgba(112, 32, 32, 0)));
+  background-image: -gtk-gradient(radial, right center, 0, right center, 0.6, from(_HIGHLIGHT_COLOR, _BG_COLOR));
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: right center;
